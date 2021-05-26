@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TIC TAC TOE</title>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body>
+  <div id="title-container">
+    <h1 id="title">TIC TAC TOE</h1>
+    <div id="status">
+      <h4 id="player-turn"></h4></br>
+   <div id="timer">Time Elapsed: <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="hundredth-sec">00</span></div>
+        
+      </div>
+    </div>
+  </div>
+  <div id="board">
+    <div id="play-game">
+      <form id="form-wrapper">
+        <label class="player-name">Player 1 Name: <input id="player1" type="text" value="Player 1"
+            placeholder="Player 1"></label>
+        </br>
+        <label id="p2Comp" class="player-name">Player 2 Name: <input id="player2" type="text" value="Player 2"
+            placeholder="Player 2"></label>
+        <div id="start-wrapper">
+          <button id="start" type="submit">Start Game</button>
+        </div>
+        <div id="reset-wrapper">
+          <button id="reset">Reset</button>
+        </div>
+      </form>
+      <div id="player-wrapper">
+        <button id="player-butt">Player vs. Player</button>
+      </div>
+      <div id="computer-wrapper">
+        <button id="computer-butt">Player vs. Computer</button>
+      </div>
+    </div>
+    <div id="cell1" class="cell"></div>
+    <div id="cell2" class="cell"></div>
+    <div id="cell3" class="cell"></div>
+    <div id="cell4" class="cell"></div>
+    <div id="cell5" class="cell"></div>
+    <div id="cell6" class="cell"></div>
+    <div id="cell7" class="cell"></div>
+    <div id="cell8" class="cell"></div>
+    <div id="cell9" class="cell"></div>
+  </div>
+  <div id="placeholder"></div>
+<h2 id="credit">Martin</h2>
+  <script src="./script/script.js"></script>
+</body>
+</html>
